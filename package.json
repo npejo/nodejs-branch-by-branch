@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-branch-by-branch",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/nodemon app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*"
+  },
+  "description": "nodejs-branch-by-branch =======================",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npejo/nodejs-branch-by-branch.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "monogoosejs",
+    "passportjs",
+    "boilerplate",
+    "tutorial"
+  ],
+  "author": "Nikola Pejoski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npejo/nodejs-branch-by-branch/issues"
+  },
+  "devDependencies": {
+    "nodemon": "~0.7.10"
+  }
+}
